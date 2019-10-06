@@ -1,0 +1,18 @@
+
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet");
+
+body {
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 800;
+	letter-spacing: 0.06em;
+	text-rendering: optimizeLegibility;
+}

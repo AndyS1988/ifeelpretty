@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.main-div {
+	width: 100vw;
+	max-width: 100%;
+	box-sizing: border-box;
+	height: auto;
+	margin: 112px 0px 0px 0px;
+}
+
+#about {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	background: linear-gradient(to right, rgb(253,225,224), rgb(255, 255, 255));
+}
+
+.centered-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.centered-row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+	color: rgb(254,185,70);
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	transition: all 0.4s ease;
+
+}
+
+a:visited {
+	color: rgb(254,185,70);
+}
+
+a:hover, a:active{
+	color: rgb(255, 146, 69);
+}
+
+@media only screen and (max-width: 550px) {
+	.main-div {
+		margin-top: 170px;
+	}
+}
