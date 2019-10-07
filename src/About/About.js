@@ -29,7 +29,7 @@ const About = () => {
       </div>
       <div id="container-about-photo">
         <img id="profile-picture" alt="Sofia Caplaneris profile" src={profilePicture} />
-        <h2 id="title-products" style={{color: "rgb(255, 170, 36)", fontWeight: "800"}}>My skin care products are:</h2>
+        <h2 id="title-products">My skin care products are:</h2>
         <div id="product-info">
           <div className="round-division centered-row">Cruelty Free</div>
           <div className="round-division centered-row">Made Locally</div>

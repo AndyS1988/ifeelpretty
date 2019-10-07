@@ -1,5 +1,6 @@
 #services-title {
 	margin-bottom: 50px;
+	text-transform: uppercase;
 }
 
 #services-container {
@@ -39,8 +40,12 @@
 	height: 365px;
 	margin: 10px;
 	padding: 1em;
-	background-color: transparent;
-	border: 1px solid rgb(239, 237, 237);
+	background-image: url("/services-background-vertical-reversed.png");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	border: none;
 	border-radius: 10px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	display: flex;
@@ -48,6 +53,7 @@
 	justify-content: flex-start;
 	align-items: space-evenly;
 }
+	/*Option for service card background url("/services-background-vertical"), with no position*/
 
 #package-decoration-image {
 	width: 100%;
