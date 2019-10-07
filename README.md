@@ -1,4 +1,4 @@
-Project in process
+Project in progress
 ***
 Creating a React Web App for a local beauty salon. 
 ***
