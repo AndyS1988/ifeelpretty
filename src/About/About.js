@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div id="about" className="main-div wave">
       <div id="container-about-text">
-      	<h1 className="about-title">Hello, my name is Sofia Caplaneris</h1>
+      	<h1 className="main-div-title">Hello, my name is Sofia Caplaneris</h1>
       	<p className ="about-text">
       	My first glimpse of beauty was with my eldest sister. She introduced me to my first facial at age 13 from a 
         seasoned esthetician from Holland, Elle. I was immediately hooked and needed to know more!

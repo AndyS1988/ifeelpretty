@@ -1,9 +1,9 @@
-#services-title {
+.services-title {
 	margin-bottom: 50px;
 	text-transform: uppercase;
 }
 
-#services-container {
+.services-container {
 	width: 95%;
 	display: flex;
 	flex-wrap: wrap;

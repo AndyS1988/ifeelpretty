@@ -14,7 +14,7 @@ const Navigation = () => {
     		<ul>
     			<li>
     				<NavLink to="/#about" 
-    					scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })}
+    					scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}
     					activeClassName="selected"
 						>About
 					</NavLink>
@@ -22,7 +22,7 @@ const Navigation = () => {
     			<li>
     				<NavLink 
     					to="/#services" 
-    					scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })}
+    					scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}
     					activeClassName="selected"
 						>Services
 					</NavLink>
@@ -30,7 +30,7 @@ const Navigation = () => {
     			<li>
     				<NavLink 
     					to="/#contact" 
-    					scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })}
+    					scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}
     					activeClassName="selected"
 						>Contact
 					</NavLink>

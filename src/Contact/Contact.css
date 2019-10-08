@@ -54,7 +54,7 @@
 
 @media only screen and (max-width: 672px) {
 	#address, #phone {
-	width: 70%;
+	width: 80%;
 	padding: 1em;
 	}
 }

@@ -6,8 +6,8 @@ import './Services.css';
 const Services = () => {
   return (
 	<div id="services" className="main-div centered-column">
-		<h2 id="services-title">Services</h2>
-		<div id="services-container">
+		<h2 className="main-div-title services-title">Services</h2>
+		<div className="services-container">
 		    <section id="facial" className="service-card">
 		    	<div className="price centered-row">$99</div>
 		    	<h3 style={{marginTop: "-2.8em"}}>Custom Facial</h3>

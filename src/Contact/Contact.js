@@ -6,7 +6,7 @@ import './Contact.css';
 const Contact = () => {
   return (
     <div id="contact" className="main-div centered-column">
-      <section className="container-contact-header">
+      <section className="main-div-title container-contact-header">
         <h2>Schedule appointment now at:</h2>
         <a href="sms:+16194818525?body=Hello Sofia, I would like to see if you are available for " className="title-link">(619) 481-8525</a>         
       </section>
