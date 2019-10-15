@@ -5,6 +5,9 @@
 
 .services-container {
 	width: 95%;
+	display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  	display: -ms-flexbox;  /* TWEENER - IE 10 */
+  	display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
@@ -48,17 +51,19 @@
 	border: none;
 	border-radius: 10px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  	display: -ms-flexbox;  /* TWEENER - IE 10 */
+  	display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: space-evenly;
 }
-	/*Option for service card background url("/services-background-vertical"), with no position*/
 
 #package-decoration-image {
 	width: 100%;
 	height: 210px;
-	border-radius:  10px;
+	border-radius: 10px;
 	opacity: 0.5;
 }
 
@@ -76,10 +81,10 @@
 	}
 }
 
-
 @media only screen and (max-width: 376px) {
 	.service-card {
 		width: 270px;
+		height: 390px;
 	}
 	.price {
 	left: 228px;

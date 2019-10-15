@@ -14,14 +14,9 @@
 	background-repeat: no-repeat;
 }
 
-
 #container-about-text {
 	width: 60%;
 	padding: 1rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: center;
 }
 
 .about-text {
@@ -49,10 +44,6 @@
 	border: 3px dashed rgb(239, 237, 237);
 	border-radius: 10px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: center;
 	position: relative;
 	z-index: 1;
 }
@@ -69,6 +60,9 @@
 } 
 
 #product-info {
+	display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  	display: -ms-flexbox;  /* TWEENER - IE 10 */
+  	display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;

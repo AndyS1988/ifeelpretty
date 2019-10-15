@@ -23,8 +23,8 @@ const App = () => {
     			<meta property="url" content="https://www.ifeelprettybysofia.com" />
 			    <meta property="type" content="website" />
 			    <meta property="description" content="Sofia Caplaneris Bio: During the 19 years of my professional experience the natural beauty 
-			    and health has always been my top priority, which is why I only use the highest quality products for my skin 
-			    care line and lash extensions. My skin care products are: cruelty free, no mineral oils, no parables, no added fragrance,
+			    and health have always been my top priority, which is why I only use the highest quality products for my skin 
+			    care line and lash extensions. My skin care products are: cruelty free, without mineral oils, without parabens, without added fragrance, and are
 				made locally in California" />
 			    <meta name="keywords" content="Sofia Caplaneris, esthetician, facial, custom facial, eyelash extensions, waxing, reflexology, ingham method, 
 			    spa, beauty, skin care, skin, eyelashes, pamper, skin analysis, cleanse, exfoliation, extractions, hydrate, acne, anti-aging, Coronado" />

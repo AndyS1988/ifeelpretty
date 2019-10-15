@@ -8,7 +8,7 @@ import './About.css';
 const About = () => {
   return (
     <div id="about" className="main-div wave">
-      <div id="container-about-text">
+      <div id="container-about-text" className="centered-column">
       	<h1 className="main-div-title">Hello, my name is Sofia Caplaneris</h1>
       	<p className ="about-text">
       	My first glimpse of beauty was with my eldest sister. She introduced me to my first facial at age 13 from a 
@@ -27,7 +27,7 @@ const About = () => {
       	<p className="about-text">XOXO, <br />Sofia</p>
         <img id="about-heart" alt="decorative heart to accompany the text" src={aboutHeart} />
       </div>
-      <div id="container-about-photo">
+      <div id="container-about-photo" className="centered-column">
         <img id="profile-picture" alt="Sofia Caplaneris profile" src={profilePicture} />
         <h2 id="title-products">My skin care products are:</h2>
         <div id="product-info">

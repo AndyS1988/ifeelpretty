@@ -1,5 +1,4 @@
 import React from 'react';
-// import contactDecoration from './contact-decoration1.png';
 
 import './Contact.css';
 
@@ -11,14 +10,6 @@ const Contact = () => {
         <a href="sms:+16194818525?body=Hello Sofia, I would like to see if you are available for " className="title-link">(619) 481-8525</a>         
       </section>
       <section className="container-contact-map">
-{/* Cookie-Less google map??!!       
-        <iframe
-          id="google-map"
-          title="google-map" 
-          src='https://www.uwp.is.ed.ac.uk/3rd-party-widgets/maps/embeds/gm.php?map=6l6wZLtHaB' 
-          frameBorder='0' 
-          className='uwpgmap'>
-        </iframe>*/}
         <iframe
           id="google-map"
           title="google-map"

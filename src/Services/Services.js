@@ -21,31 +21,31 @@ const Services = () => {
 		    </section>
 		    <section id="facial-add-ons" className="service-card">
 		    	<h3>Add Ons to Custom Facial</h3>
-		    	<p className="service-card-txt">Oxygen Treatment <br />$35</p>
-		    	<p className="service-card-txt">Neck & Decollete Treatment <br />$35</p>
-		    	<p className="service-card-txt">Collagen Hand Treatment <br />$15</p>
-		    	<p className="service-card-txt">30 minute Therapeutic Reflexology Session <br />$50</p>
+		    	<p className="service-card-txt">Oxygen Treatment<br />$35</p>
+		    	<p className="service-card-txt">Neck & Decollete Treatment<br />$35</p>
+		    	<p className="service-card-txt">Collagen Hand Treatment<br />$15</p>
+		    	<p className="service-card-txt">30 minute Therapeutic Reflexology Session<br />$50</p>
 		    </section>
 		    <section id="eyelashes" className="service-card">
 		    	<h3>Eyelash Extensions</h3>
 		    	<p className="service-card-txt">Creating natural looking lashes to enhance your beauty.</p>
-		    	<p className="service-card-txt">Full set <br />$110</p>
-		    	<p className="service-card-txt">Fills within 2 weeks <br />$50</p>
-		    	<p className="service-card-txt">Fills within 3 weeks <br />$65</p>
+		    	<p className="service-card-txt">Full set<br />$110</p>
+		    	<p className="service-card-txt">Fills within 2 weeks<br />$50</p>
+		    	<p className="service-card-txt">Fills within 3 weeks<br />$65</p>
 		    </section>
 		    <section id="waxing" className="service-card">
 		    	<h3>Waxing</h3>
-		    	<p className="service-card-txt-tight">Full leg with bikini <br />$75</p>
-		    	<p className="service-card-txt-tight">Half leg <br />$30</p>
-		    	<p className="service-card-txt-tight">Full face <br />$45</p>
-		    	<p className="service-card-txt-tight">Brows <br />$21</p>
-		    	<p className="service-card-txt-tight">Lip <br />$11</p>
-		    	<p className="service-card-txt-tight">Back <br />$60</p>
+		    	<p className="service-card-txt-tight">Full leg with bikini<br />$75</p>
+		    	<p className="service-card-txt-tight">Half leg<br />$30</p>
+		    	<p className="service-card-txt-tight">Full face<br />$45</p>
+		    	<p className="service-card-txt-tight">Brows<br />$21</p>
+		    	<p className="service-card-txt-tight">Lip<br />$11</p>
+		    	<p className="service-card-txt-tight">Back<br />$60</p>
 		    </section>
 		    <section id="reflexology" className="service-card">
 		    	<div className="price centered-row">$85</div>
 		    	<h3 style={{marginTop: "-2.8em"}}>Reflexology</h3>
-		    	<p className="service-card-txt">A 50 minute Therapeutic Reflexology Session using the original Ingham Method.</p>
+		    	<p className="service-card-txt-tight">A 50 minute Therapeutic Reflexology Session using the original Ingham Method.</p>
 		    	<p className="service-card-txt-tight">* a technique of reflexology when applied to the feet has a natural way of:</p>
 		    	<p className="service-card-txt-tight">relaxation</p>
 		    	<p className="service-card-txt-tight">improving nerve functions</p>
@@ -63,7 +63,6 @@ const Services = () => {
 		    </section>
 	    </div>
    	</div>
-
   );
 }
 
