@@ -7,7 +7,7 @@ const Contact = () => {
     <div id="contact" className="main-div centered-column">
       <section className="main-div-title container-contact-header">
         <h2>Schedule appointment now at:</h2>
-        <a href="sms:+16194818525" className="title-link">(619) 481-8525</a>         
+        <a href="sms://+16194818525" className="title-link">(619) 481-8525</a>         
       </section>
       <section className="container-contact-map">
         <iframe
@@ -34,7 +34,7 @@ const Contact = () => {
         <div id="phone" className="centered-row">
           <div className="inner-circle centered-column-center">
             <h3>Phone:</h3>
-            <a href="sms:+16194818525" className="title-link">(619) 481-8525</a>
+            <a href="sms://+16194818525" className="title-link">(619) 481-8525</a>
             <p style={{fontStyle: "italic", fontSize: "0.8em"}}>*for faster responses please text</p>
           </div>
         </div>
