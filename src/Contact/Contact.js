@@ -7,7 +7,7 @@ const Contact = () => {
     <div id="contact" className="main-div centered-column">
       <section className="main-div-title container-contact-header">
         <h2>Schedule appointment now at:</h2>
-        <a href="sms:+16194818525?body=Hello Sofia, I would like to see if you are available for " className="title-link">(619) 481-8525</a>         
+        <a href="sms:+16194818525" className="title-link">(619) 481-8525</a>         
       </section>
       <section className="container-contact-map">
         <iframe
@@ -23,13 +23,18 @@ const Contact = () => {
         <div id="address" className="centered-row">
           <div className="inner-circle centered-column-center">
             <h3>Location:</h3>
-            <p>Suite #7<br />1351 Orange Avenue<br />Coronado, CA 92118</p>
+              <a href="https://www.google.com/maps/place/1351+Orange+Ave,+Coronado,+CA+92118/@32.6825772,-117.1797197,17z/data=!3m1!4b1!4m5!3m4!1s0x80deaccc4ec559dd:0x3831ca820affcb01!8m2!3d32.6825772!4d-117.177531" 
+                target="_blank"
+                rel="noopener noreferrer"
+                id="address-link">
+                <p>Suite #7<br />1351 Orange Avenue<br />Coronado, CA 92118</p>
+              </a>
           </div>
         </div>
         <div id="phone" className="centered-row">
           <div className="inner-circle centered-column-center">
             <h3>Phone:</h3>
-            <a href="sms:+16194818525?body=Hello Sofia, I would like to schedule a " className="title-link">(619) 481-8525</a>
+            <a href="sms:+16194818525" className="title-link">(619) 481-8525</a>
             <p style={{fontStyle: "italic", fontSize: "0.8em"}}>*for faster responses please text</p>
           </div>
         </div>
