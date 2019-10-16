@@ -22,7 +22,7 @@ const About = () => {
         </p>
         <p className ="about-text">I run my own successful business and 
         work at a handful of elite spas. I'm a bonafide spa patron and luv luv luv the spa! I'm truly grateful to work in 
-        an industry that I'm passionate about and guarantee that I will trantslate that passion into your continued beauty.
+        an industry that I'm passionate about and guarantee that I will translate that passion into your continued beauty.
       	</p>
       	<p className="about-text">XOXO, <br />Sofia</p>
         <img id="about-heart" alt="decorative heart to accompany the text" src={aboutHeart} />

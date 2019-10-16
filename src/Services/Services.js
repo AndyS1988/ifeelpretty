@@ -1,5 +1,5 @@
 import React from 'react';
-import	packageDecoration from './service-decoration.jpg'
+import	packageDecoration from './service-decoration-optimized.jpg'
 
 import './Services.css';
 
@@ -12,12 +12,12 @@ const Services = () => {
 		    	<div className="price centered-row">$99</div>
 		    	<h3 style={{marginTop: "-2.8em"}}>Custom Facial</h3>
 		    	<p className="service-card-txt">A 55 minute treatment which meets the skin care needs of each individual.</p>
-		    	<p className="service-card-txt">The treatment includes:</p>
+		    	<p className="service-card-txt-tight">The treatment includes:</p>
 		    	<p className="service-card-txt-tight">skin analysis, cleanse, exfoliation, extractions, either a hydrating, acne or anti-aging mask. 
 		    	Each facial concludes with a nourishing moisturizer with SPF and a scalp, neck and shoulder massage.</p>
 		    	<p className="service-card-txt-tight" style={{fontStyle: "italic", fontSize: "0.8em"}}>(with monthly membership only $90)</p>
 		    	<p className="service-card-txt" style={{fontStyle: "italic", fontSize: "0.8em"}}>40 minute Teen Custom Facial is available with focus on 
-		    		extractions, does not iclude neck and shoulder massage.<br />$75</p>
+		    		extractions, does not include neck and shoulder massage.<br />$75</p>
 		    </section>
 		    <section id="facial-add-ons" className="service-card">
 		    	<h3>Add Ons to Custom Facial</h3>
