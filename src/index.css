@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,600&display=swap" rel="stylesheet");
 
 
 body {
@@ -6,13 +6,8 @@ body {
   font-family: 'Quicksand', sans-serif;
   font-weight: 400;
 }
-
-h1 {
-	font-weight: 800;
-	letter-spacing: 0.06em;
-}
-
-h2, h3, h4, h5, h6, a {
+ 
+h1 ,h2, h3, h4, h5, h6, a {
 	font-weight: 600;
 	letter-spacing: 0.06em;
 }
