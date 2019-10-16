@@ -21,7 +21,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	align-items: flex-start;
 	background: -ms-linear-gradient(to top, rgb(191, 106, 134), rgb(232, 192, 153));
 	background: -o-linear-gradient(to top, rgb(191, 106, 134), rgb(232, 192, 153));
