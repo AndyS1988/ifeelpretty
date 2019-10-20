@@ -82,7 +82,9 @@
 }
 
 .round-division:hover {
-	transform: scale(1.1);
+	-webkit-transform: scale(1.1); /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */
+    -ms-transform: scale(1.1); /* IE 9 */
+	transform: scale(1.1); /* IE 10, Fx 16+, Op 12.1+ */
 }
 
 @media only screen and (max-width: 739px) {
