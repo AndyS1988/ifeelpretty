@@ -14,10 +14,10 @@ const Services = () => {
 		    	<p className="service-card-txt">A 55 minute treatment which meets the skin care needs of each individual.</p>
 		    	<p className="service-card-txt-tight">The treatment includes:</p>
 		    	<p className="service-card-txt-tight">skin analysis, cleanse, exfoliation, extractions, either a hydrating, acne or anti-aging mask. 
-		    	Each facial concludes with a nourishing moisturizer with SPF and a scalp, neck and shoulder massage.</p>
+		    	Each facial concludes with a scalp, neck and shoulder massage and with nourishing moisturizer with SPF.</p>
 		    	<p className="service-card-txt-tight" style={{fontStyle: "italic", fontSize: "0.8em"}}>(with monthly membership only $90)</p>
 		    	<p className="service-card-txt" style={{fontStyle: "italic", fontSize: "0.8em"}}>40 minute Teen Custom Facial is available with focus on 
-		    		extractions, does not include neck and shoulder massage.<br />$75</p>
+		    		extractions and does not include massage.<br />$75</p>
 		    </section>
 		    <section id="facial-add-ons" className="service-card">
 		    	<h3>Add Ons to Custom Facial</h3>

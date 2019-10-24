@@ -1,13 +1,14 @@
 import React from 'react';
+import { Suspense, lazy } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { Helmet } from "react-helmet";
+import './App.css';
 
 import Navigation from './Navigation/Navigation';
 import About from './About/About';
-import Services from './Services/Services';
-import Contact from './Contact/Contact';
+const Services = lazy(() => import('./Services/Services'));
+const Contact = lazy(() => import('./Contact/Contact'));
 
-import './App.css';
 
 const App = () => {
   return (
@@ -22,12 +23,12 @@ const App = () => {
     			<meta property="title" content="I Feel Pretty By Sofia" />
     			<meta property="url" content="https://www.ifeelprettybysofia.com" />
 			    <meta property="type" content="website" />
-			    <meta property="description" content="Sofia Caplaneris Bio: During the 19 years of my professional experience the natural beauty 
+			    <meta property="description" content="Coronado Beauty Specialist, Sofia Caplaneris: During the 19 years of my professional experience the natural beauty 
 			    and health have always been my top priority, which is why I only use the highest quality products for my skin 
 			    care line and lash extensions. My skin care products are: cruelty free, without mineral oils, without parabens, without added fragrance, and are
 				made locally in California" />
-			    <meta name="keywords" content="Sofia Caplaneris, esthetician, facial, custom facial, eyelash extensions, waxing, reflexology, ingham method, 
-			    spa, beauty, skin care, skin, eyelashes, pamper, skin analysis, cleanse, exfoliation, extractions, hydrate, acne, anti-aging, Coronado" />
+			    <meta name="keywords" content="Sofia Caplaneris, Sofia, esthetician, facial, custom facial, eyelash extensions, waxing, reflexology, ingham method, 
+			    spa, beauty, skin care, skin, eyelashes, pamper, skin analysis, cleanse, exfoliation, extractions, hydrate, acne, anti-aging, Coronado, San Diego, Coronado Beauty" />
 			    <meta name="author" content="Andrea Spaska-Cox" />
             </Helmet>
 	      <header>
@@ -35,8 +36,12 @@ const App = () => {
 	      </header>
 	      <main className="centered-column">
 	      	<About />
-	      	<Services />
-	      	<Contact />
+	      	<Suspense fallback={<h2>Loading...</h2>}>
+	      		<Services />
+	      	</Suspense>
+	      	<Suspense fallback={<h2>Loading...</h2>}>
+	      		<Contact />
+	      	</Suspense>	
 	      </main>
 	    </div>
 	</BrowserRouter>

@@ -27,7 +27,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 id="address-link">
-                <p>Suite #7<br />1351 Orange Avenue<br />Coronado, CA 92118</p>
+                <p>1351 Orange Avenue<br />Suite #7<br />Coronado, CA 92118</p>
               </a>
           </div>
         </div>

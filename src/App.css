@@ -65,18 +65,21 @@
 a {
 	cursor: pointer;
 	text-decoration: none;
-	color: rgb(254,185,70);
+	color: rgb(252, 135, 0);
+	text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
+	/*color: rgb(254,185,70);*/
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	transition: all 0.4s ease;
 }
 
 a:visited {
-	color: rgb(254,185,70);
+	color: rgb(252, 135, 0);
 }
 
 a:hover, a:active{
-	color: rgb(255, 146, 69);
+	color: rgb(254,185,70);
 }
 
 @media only screen and (max-width: 550px) {
