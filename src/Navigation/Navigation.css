@@ -71,10 +71,11 @@ li {
 		height: 200px;
 	}
 	#covid-announcement {
-		height: 50%;
+		height: 42%;
+		font-size: 0.85em;
 	}
 	#navigation-bar {
-		height: 50%;
+		height: 58%;
 		display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
   		display: -ms-flexbox;  /* TWEENER - IE 10 */
   		display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
@@ -98,8 +99,10 @@ li {
 	  	display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
 		display: flex;
 		flex-direction: column;
-		/*flex-wrap: wrap;*/
 		justify-content: center;
 		align-items: center;
+	}
+	li {
+		font-size: 0.85em;
 	}
 }
