@@ -5,7 +5,7 @@ import './Services.css';
 
 const Services = () => {
   return (
-	<div id="services" className="main-div centered-column">
+	<div id="services" className="main-div centered-column" style={{paddingTop: "5px"}}>
 		<h2 className="main-div-title services-title">Services</h2>
 		<div className="services-container">
 		    <section id="facial" className="service-card">

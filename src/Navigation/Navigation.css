@@ -5,13 +5,23 @@
 	right: 0;
 	width: 100vw;
 	box-sizing: border-box;
-	height: 112px;
+	height: 132px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	z-index: 3;
 }
 
+#covid-announcement {
+	box-sizing: border-box;
+	width: 100%;
+	height: 40%;
+	background-color: rgb(80, 59, 59);
+	text-align: left;
+	color: #fff;
+	padding: 10px 10px 10px 20px;
+}
+
 #navigation-bar {
-	height: 100%;
+	height: 60%;
 	padding: 0 1em;
 	box-sizing: border-box;
 	display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
@@ -58,9 +68,13 @@ li {
 
 @media only screen and (max-width: 550px) {
 	#navigation {
-		height: 170px;
+		height: 200px;
+	}
+	#covid-announcement {
+		height: 50%;
 	}
 	#navigation-bar {
+		height: 50%;
 		display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
   		display: -ms-flexbox;  /* TWEENER - IE 10 */
   		display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
@@ -71,8 +85,8 @@ li {
 		align-items: center;
 	}
 	#logo {
-		height: 134.4px; 
-		width: 134.4px;
+		height: 114.4px; 
+		width: 114.4px;
 		border-radius: 50%;
 	}
 	#spacer {
@@ -87,8 +101,5 @@ li {
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
-	}
-	li {
-		margin: 7px 15px;
 	}
 }

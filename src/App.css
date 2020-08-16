@@ -11,7 +11,7 @@
 }
 
 .main-div-title {
-	margin-top: 115px;
+	margin-top: 135px;
 }
 
 #about {
@@ -84,6 +84,6 @@ a:hover, a:active{
 
 @media only screen and (max-width: 550px) {
 	.main-div-title {
-		margin-top: 170px;
+		margin-top: 200px;
 	}
 }
